@@ -1,6 +1,9 @@
 body{
     background-color: antiquewhite;
 }
+#start{
+    position: fixed;
+}
 .img{
     position: absolute;
     width: 300px;
@@ -32,8 +35,17 @@ ul>li{
 .flex-container {
     display: flex;
     border: coral;
-    margin: 0 auto;
-
+    position: relative;
+    left: 350px;
+  
+}
+#feature>h3{
+    font-size: 30px;
+    
+}
+#feature>h4{
+    font-size: 15px;
+    font-weight: lighter;
 }
 .flex-container > div {
     background-color: darkslategrey;
@@ -49,6 +61,7 @@ ul>li{
     font-weight: normal;
     text-align: center;
 }
+
 #footer{
     margin: 0 auto;
     background-color: gainsboro;
