@@ -2,7 +2,7 @@ body{
     background-color: antiquewhite;
 }
 #start{
-    position: fixed;
+
 }
 .img{
     position: absolute;
@@ -12,7 +12,7 @@ body{
 .top{
     position: absolute;
     text-align: right;
-    top: 80px;
+    top: 40px;
     right: 90px;
 }
 ul>li{
