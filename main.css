@@ -7,7 +7,10 @@ body{
     height: 100px;
 }
 .top{
+    position: absolute;
     text-align: right;
+    top: 80px;
+    right: 90px;
 }
 ul>li{
     display: inline;
@@ -17,4 +20,39 @@ ul>li{
 .mail{
     width: 600px;
     margin: auto;
+}
+.fa{
+    color: orangered;
+}
+.service{
+    text-align: justify;
+    margin: 0 auto;
+    max-width: 600px;
+}
+.flex-container {
+    display: flex;
+    border: coral;
+    margin: 0 auto;
+
+}
+.flex-container > div {
+    background-color: darkslategrey;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
+.flex-container > div >h3{
+    background-color: coral;
+
+}
+.flex-container > div >h4{
+    font-weight: normal;
+    text-align: center;
+}
+#footer{
+    margin: 0 auto;
+    background-color: gainsboro;
+    width: 1000px;
+    height: 100px;
+    text-align: right;
 }
